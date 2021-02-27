@@ -140,4 +140,40 @@ myObject.getInnerProperty()
 
 var myObject = new myObjectConstructor()
 
-// scope example end
+// ---------------------- scope example end
+
+// If statements:
+// if the condition is met,
+//---------------------executes section of code
+
+// IF STATEMENTS EXAMPLE
+
+if (true) {
+    console.log('I show up')
+}
+
+if (false) {
+    console.log('I do not show up')
+}
+
+// TRUTH VALUES
+//------ 0 , '' , null, NaN
+
+Boolean('something') // returns true
+Boolean('') // empty string
+!!('something') // returns true
+!!('') // returns false
+!!'something' // true
+!!'' // false
+
+
+// '!' NOT OPERATOR
+// Converts a value or expression to a Boolean
+// And inverts it
+
+// --------- !false => true
+// --------- !true => false
+// --------- !0 => true
+// !'hello' => false
+// !!'hello' => true
+// If statements example end
