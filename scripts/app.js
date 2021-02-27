@@ -1,0 +1,1 @@
+window.alert(window.document.querySelector('h1').innerText)
