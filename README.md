@@ -1,45 +1,72 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome USER_NAME,
+<h2 align="center">Eduonix project</h2>
+<div align="center">
+<img src="https://www.google.co.uk/url?sa=i&url=https%3A%2F%2Fmedium.com%2Fbetter-programming%2Fterms-you-need-to-know-as-js-developer-28c2adfd2bb5&psig=AOvVaw3XjvR-Hjv_FsHz6xoRpIeu&ust=1614511128849000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIjP3-T4ie8CFQAAAAAdAAAAABAD" target="_blank" rel="noopener" alt="Eduonix">
+</div>
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+# Project Overview
 
-## Gitpod Reminders
+__Learning HTML, CSS JavaScript__
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+*The core purpose of this repository is to explore the impact JavaScript has and how it takes a static looking webpage/platform to an intuitive site that interacts with users.*
 
-`python3 -m http.server`
+## Contents
+* [Project purpose](#Project-Purpose)
+     * [UX](#UX)
+* [Features](#Features)
+     * [issues-and-bugs](#issues-and-bugs)
+* [Technologies](#Technologies)
+     * [Languages](#Languages)
+* [Testing](#Testing)
+* [Acknowledgements](#Acknowledgements)
+     * [External-Media](#External-Media)
 
-A blue button should appear to click: *Make Public*,
+-------------
 
-Another blue button should appear to click: *Open Browser*.
+# Project purpose
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The purpose of this project is to learn JavaScript and other similar languages to gain a greater understanding of JavaScript capabilities.
 
-A blue button should appear to click: *Make Public*,
+# Features
 
-Another blue button should appear to click: *Open Browser*.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### JavaScript
 
-## Updates Since The Instructional Video
+* *The homepage consists of navigation bar(or mobile if using mobile devices), see navigation feature for details in navigation feature.*
+   
+-------
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Languages
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+  - In this project I used *JavaScript*.
+   
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Technologies
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+These technologies helped create, shape and test my code
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+-------
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Testing
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+------
 
---------
+## Deployment
 
-Happy coding!
+#### Requirements 
+You will need the following tools& accounts installed on your system and an account with:
+
+An IDE such as Visual Studio, gitpod, Code, or like this project gitpod
+------
+
+## Acknowledgements
+
+I would like to acknowledge Eduonix for providing insightful tutorials on how to implement code.
+
+-----
+  
+ #### All code adapted is for educational purposes only and not for commercial gain.
+
+## External Media 
+*Any external media taken, are used for educational purposes only.*
