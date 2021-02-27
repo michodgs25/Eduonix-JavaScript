@@ -1,1 +1,1 @@
-window.alert(window.document.querySelector('h1').innerText)
+window.alert('JavaScript Bro')
