@@ -177,4 +177,94 @@ Boolean('') // empty string
 // !'hello' => false
 // !!'hello' => true
 
+var name = 'Sarah'
+if (name) {
+    let name = 'Different name'
+    console.log('Name is specified')
+}
+console.log(name)
+
+if (name) {
+    console.log('Name specified')
+}
+
+if (!name) {
+    console.log('Name is not specified')
+}
+
+// if else statement, executes if statement
+var name = 'Hi'
+
+if (name) {
+    console.log('Name specified')
+} else {
+    console.log('Name is not specified')
+}
+
+// Empty string variable, executes else statement
+var name = ''
+
+if (name) {
+    console.log('Name specified')
+} else {
+    console.log('Name is not specified')
+}
+
+//empty variable string, 2nd else block executes
+
+var name = ''
+
+if (name) {
+    if (name.length > 10) {
+        console.log('Name is too long')
+    } else {
+        console.log('Name specified')
+    }
+} else {
+    console.log('Name is not specified')
+}
+
+
+// Name specified, under ten, 1st else block executes
+var name = 'Hello'
+
+if (name) {
+    if (name.length > 10) {
+        console.log('Name is too long')
+    } else {
+        console.log('Name specified')
+    }
+} else {
+    console.log('Name is not specified')
+}
+
+// Name specified, over ten, if block executes
+var name = 'Hello'
+
+if (name) {
+    if (name.length > 10) {
+        console.log('Name is too long')
+    } else {
+        console.log('Name specified')
+    }
+} else {
+    console.log('Name is not specified')
+}
+
+// Name specified, name is too long, if statement runs
+var name = 'Hello is too long!'
+
+if (name) {
+    if (name.length > 10) {
+        console.log('Name is too long')
+    } else if (name.length < 2) {
+        console.log('Name is too short')
+    } else {
+        console.log('Name specified')
+    }
+} else {
+    console.log('Name is not specified')
+}
+
+
 // If statements example end
