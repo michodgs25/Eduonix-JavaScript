@@ -251,8 +251,8 @@ if (name) {
     console.log('Name is not specified')
 }
 
-// Name specified, name is too long, if statement runs
-var name = 'Hello is too long!'
+// Name specified, name is too short, if else runs
+var name = 'Mr'
 
 if (name) {
     if (name.length > 10) {
@@ -266,5 +266,68 @@ if (name) {
     console.log('Name is not specified')
 }
 
+// Create two variables, measuring name either
+// less than 2, or more than 10, name is too short
+// thus 1st else if runs
+var name = 'M'
 
-// If statements example end
+if (name) {
+    var nameLengthGreaterThan10 = name.length > 10
+    var nameLengthLessThan2 = name.length < 2
+
+    if (nameLengthGreaterThan10) {
+        console.log('Name is too long')
+    } else if (nameLengthLessThan2) {
+        console.log('Name is too short')
+    } else {
+        console.log('Name specified')
+    }
+} else {
+    console.log('Name is not specified')
+}
+
+// string name over ten characters, if statement runs
+var name = 'Mansnameisfartoolonggawddammit'
+
+if (name) {
+    var nameLengthGreaterThan10 = name.length > 10
+    var nameLengthLessThan2 = name.length < 2
+
+    if (nameLengthGreaterThan10) {
+        console.log('Name is too long')
+    } else if (nameLengthLessThan2) {
+        console.log('Name is too short')
+    } else {
+        console.log('Name specified')
+    }
+} else {
+    console.log('Name is not specified')
+}
+
+// AND && AND OPERATOR --- a && b
+// ------------IF a is truthy, RETURN b
+//-------------IF a is not truthy, RETURN a
+
+// 'aaa' && 2 => 2
+// 0 && 'something' => 0
+
+'aaa' && 2
+0 && 'something'
+
+// apply 'and/&&' operator to check name length
+// is greater than 2 and less than 10
+// name is greater than 2 and 10 
+// Since name is incorrect length, if statement will run
+var name = 'Mmmmmmmmmmmmmmmmmmmmmmmmmmm'
+
+if (name) {
+    if (name.length > 2 && name.length < 10) {
+        console.log('Name is not specified')
+    } else {
+        console.log('Name is not the correct length')
+    }
+} else {
+    console.log('Name is not specified')
+}
+
+// If, else, if else statements examples end
