@@ -1,7 +1,7 @@
 
 <h2 align="center">Eduonix project</h2>
 <div align="center">
-<img src="https://www.google.co.uk/url?sa=i&url=https%3A%2F%2Fmedium.com%2Fbetter-programming%2Fterms-you-need-to-know-as-js-developer-28c2adfd2bb5&psig=AOvVaw3XjvR-Hjv_FsHz6xoRpIeu&ust=1614511128849000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIjP3-T4ie8CFQAAAAAdAAAAABAD" target="_blank" rel="noopener" alt="Eduonix">
+<img src="https://miro.medium.com/max/800/1*bxEkHw1xewxOFjmGunb-Cw.png" target="_blank" rel="noopener" alt="Eduonix">
 </div>
 
 # Project Overview
