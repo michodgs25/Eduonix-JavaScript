@@ -331,3 +331,71 @@ if (name) {
 }
 
 // If, else, if else statements examples end
+
+// loop section 
+
+let number = 0
+if (number < 10) {
+    console.log(number)
+    number = number + 1
+}
+console.log('Finished with number at ' + number)
+
+let number = 0
+while (number < 10) {
+    console.log(number)
+    number = number + 1
+}
+console.log('Finished with number at ' + number)
+
+let x = 5
+let y = x++
+
+let number = 0 //  start
+while (number < 10) { // condition
+    console.log(number) // statement
+    number++ // increment
+}
+console.log('Finished with number at ' + number)
+
+// ------------------ for loop examples
+
+for (let number = 0; number < 10; number++) { // start, condition, increment
+    console.log(number)
+}
+
+let number = 0
+for (; number < 10;) {
+    console.log(number)
+    number++
+}
+console.log('Finished with number at ' + number)
+
+
+for (let number = 0; number < 10; number++) { // break example
+    console.log(number) // statement
+    if (number == 5) {
+        break
+    }
+}
+console.log('Finished with number at ' + number)
+
+for (let number = 0; number < 10; number++) { // continue example
+    console.log(number) // statement
+    if (number == 5) {
+        continue
+    }
+}
+console.log('Finished with number at ' + number)
+
+var number = 0
+while (number < 10) { // continue example
+    number++ // make sure to increment BEFORE continue statement
+    if (number === 5) {
+        continue
+    }
+    console.log(number)
+}
+console.log('Finished with number at ' + number)
+
+// --------- loop examples end
