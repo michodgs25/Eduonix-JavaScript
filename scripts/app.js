@@ -392,3 +392,66 @@ while (number < 10) { // continue example
 console.log('Finished with number at ' + number)
 
 // --------- loop examples end
+
+// Switch statement examples
+var value = 2 
+switch(value){
+    case 2:
+        console.log('The value is 2')
+        break
+    case 3:
+        console.log('The value is 3')
+}
+
+var a = 2
+switch(a) {
+    case 2:
+        console.log('a is 2')
+}
+
+var value = 2
+switch(value) {
+    case 2:
+        console.log('The value is 2')
+        break // Used to exits out of the switch statement
+              //Any code used after is skipped
+              // must be used, as default case variable,
+             // executes all code after the case.
+             // even if its code that comes after other cases
+    case 3:
+        console.log('The value is 3')
+}
+
+
+var value = 4 // default clause example
+switch(value) {
+    case 2:
+        console.log('The value is 2')
+        break
+    case 3:
+        console.log('The value is 3')
+        break
+    default:
+        console.log('The value is something else')
+}
+
+function displayShapeInfo (shape) {
+    console.log(shape + ':')
+    switch(shape) {
+        case 'circle':
+            console.log('The shape has no sides')
+            break
+        case 'triangle':
+            console.log('The shape has three sides')
+            break
+        case 'square':
+            console.log('The shape has four sides')
+            break
+        case 'rectangle':
+            console.log('The shape is rectangular')
+            break
+        default:
+            console.log('Shape must be a polygon of some kind')
+    }
+}
+// ------------Switch end
