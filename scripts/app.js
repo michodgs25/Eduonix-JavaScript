@@ -341,13 +341,6 @@ if (number < 10) {
 }
 console.log('Finished with number at ' + number)
 
-let number = 0
-while (number < 10) {
-    console.log(number)
-    number = number + 1
-}
-console.log('Finished with number at ' + number)
-
 let x = 5
 let y = x++
 
