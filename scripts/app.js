@@ -457,13 +457,23 @@ function displayShapeInfo(shape) {
 // ------------Switch end
 
 // DOM Interaction section
-var header = document.querySelector('.header')
+function onLoad() {
+    var header = document.querySelector('.header')
+    var input = document.querySelector('.input')
 
-function updateHeaderText (text) {
-    header.innerText = text
+    function updateHeaderText(text) {
+        header.innerText = text
+    }
+
+    input.addEventListener('change', function (event) {
+        updateHeaderText(this.value)
+    }, true)
 }
-updateHeaderText('custom header')
 
-
+if (document.readyState == 'complete') {
+    onload()
+} else {
+    window.addEventListener('DOMContentLoaded', onload, true)
+}
 
 // DOM END
